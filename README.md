@@ -1,7 +1,11 @@
 SpreeQuickView
 ==============
 
-Introduction goes here.
+Quick view is a button that users can click on to view more information about a product
+
+![alt tag](https://raw.githubusercontent.com/ronzalo/spree_quick_view/master/lib/generators/spree_quick_view/install/templates/1.png)
+
+![alt tag](https://raw.githubusercontent.com/ronzalo/spree_quick_view/master/lib/generators/spree_quick_view/install/templates/2.png)
 
 Installation
 ------------
@@ -18,6 +22,11 @@ Bundle your dependencies and run the installation generator:
 bundle
 bundle exec rails g spree_quick_view:install
 ```
+
+Customization
+-------------
+
+Edit partial `spree/products/_product.html.erb`
 
 Testing
 -------
@@ -36,4 +45,4 @@ Simply add this require statement to your spec_helper:
 require 'spree_quick_view/factories'
 ```
 
-Copyright (c) 2015 [name of extension creator], released under the New BSD License
+Copyright (c) 2015 Gonzalo Moreno, released under the New BSD License
