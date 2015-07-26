@@ -1,0 +1,4 @@
+<!-- insert_top 'div.product-body' -->
+<%= link_to url, remote: true, class: "quickshop" do %>
+  <span class="glyphicon glyphicon-zoom-in" title="<%= Spree.t(:quickview) %>"></span>
+<% end %>

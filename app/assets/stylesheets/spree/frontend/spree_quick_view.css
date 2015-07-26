@@ -2,3 +2,13 @@
 Placeholder manifest file.
 the installer will append this file to the app vendored assets here: 'vendor/assets/stylesheets/spree/frontend/all.css'
 */
+a.quickshop {
+  position: absolute;
+  top: 0px;
+  right: 10%;
+  display: none;
+  z-index: 50;
+  text-align: center;
+  margin: 0 auto;
+}
+div.product-list-item:hover a.quickshop { display: block;}

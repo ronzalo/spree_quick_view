@@ -1,0 +1,4 @@
+$modal = $('.product-modal'),
+$modalBody = $('.product-modal .modal-body'),
+$modalBody.html("<%= escape_javascript(render @product) %>");
+$modal.modal();
